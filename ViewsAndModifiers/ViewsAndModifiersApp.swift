@@ -11,7 +11,9 @@ import SwiftUI
 struct ViewsAndModifiersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            ButtonView()
+            TypeView()
         }
     }
 }

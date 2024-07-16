@@ -12,6 +12,7 @@
 		113755332C23620A00036442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113755322C23620A00036442 /* Assets.xcassets */; };
 		113755362C23620A00036442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113755352C23620A00036442 /* Preview Assets.xcassets */; };
 		11D6E99D2C46FFF3006D9DDE /* ProminentTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6E99C2C46FFF3006D9DDE /* ProminentTitle.swift */; };
+		11D6E99F2C47044D006D9DDE /* GridStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6E99E2C47044D006D9DDE /* GridStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		113755322C23620A00036442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113755352C23620A00036442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11D6E99C2C46FFF3006D9DDE /* ProminentTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProminentTitle.swift; sourceTree = "<group>"; };
+		11D6E99E2C47044D006D9DDE /* GridStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				113755322C23620A00036442 /* Assets.xcassets */,
 				113755342C23620A00036442 /* Preview Content */,
 				11D6E99C2C46FFF3006D9DDE /* ProminentTitle.swift */,
+				11D6E99E2C47044D006D9DDE /* GridStackView.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				113755312C23620900036442 /* ContentView.swift in Sources */,
 				11D6E99D2C46FFF3006D9DDE /* ProminentTitle.swift in Sources */,
+				11D6E99F2C47044D006D9DDE /* GridStackView.swift in Sources */,
 				1137552F2C23620900036442 /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

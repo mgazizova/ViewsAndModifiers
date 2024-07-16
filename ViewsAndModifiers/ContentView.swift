@@ -203,6 +203,12 @@ struct UseOfCustomModifierView: View {
         Text("Another greeting, Mariia")
             .titleStyle()
         
+        Text("Using prominent title")
+            .modifier(ProminentTitle())
+        
+        Text("Using prominent title AGAIN")
+            .prominentTitle()
+        
         Color(.yellow)
             .frame(width: 300, height: 300)
             .watermark(with: "What are you doing????")
@@ -216,6 +222,10 @@ extension View {
     
     func watermark(with text: String) -> some View {
         modifier(Watermark(text: text))
+    }
+    
+    func prominentTitle() -> some View {
+        modifier(ProminentTitle())
     }
 }
 
